@@ -1,0 +1,6 @@
+framework module Pods_GithubbTests {
+  umbrella header "Pods-GithubbTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

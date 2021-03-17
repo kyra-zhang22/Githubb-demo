@@ -1,0 +1,6 @@
+framework module Pods_Githubb {
+  umbrella header "Pods-Githubb-umbrella.h"
+
+  export *
+  module * { export * }
+}
