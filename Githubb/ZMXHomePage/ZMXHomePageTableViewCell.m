@@ -6,16 +6,13 @@
 //
 
 #import "ZMXHomePageTableViewCell.h"
-#import "Masonry.h"
+#import <Masonry/Masonry.h>
 
 @implementation ZMXHomePageTableViewCell
 
 
-- (void)updateWithTextandImage:(NSString *)text image:(NSString *)image
+- (void)updateWithText:(NSString *)text image:(NSString *)image
 {
-
-    
-    
     UIImageView *icon = [[UIImageView alloc] initWithFrame:CGRectMake(10, 2, 20, 20)];
     icon.image = [UIImage imageNamed:image];;
     [self.contentView addSubview:icon];

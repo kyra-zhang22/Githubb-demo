@@ -12,10 +12,6 @@
 		2B26EBF025FB12550002754B /* ZMXHomePageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B26EBEF25FB12550002754B /* ZMXHomePageTableViewCell.m */; };
 		2B26EC0025FB42C60002754B /* ZMXRepoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B26EBFF25FB42C60002754B /* ZMXRepoViewController.m */; };
 		2B26EC1E25FF6C760002754B /* ZMXRepoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B26EC1D25FF6C760002754B /* ZMXRepoModel.m */; };
-		2B26EC3B260204600002754B /* organization.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B26EC372602045F0002754B /* organization.png */; };
-		2B26EC3C260204600002754B /* issues.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2B26EC382602045F0002754B /* issues.jpeg */; };
-		2B26EC3D260204600002754B /* pull_request.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B26EC392602045F0002754B /* pull_request.png */; };
-		2B26EC3E260204600002754B /* repo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B26EC3A260204600002754B /* repo.png */; };
 		2BABA09225F5C996002DCEB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BABA09125F5C996002DCEB3 /* AppDelegate.m */; };
 		2BABA09525F5C996002DCEB3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BABA09425F5C996002DCEB3 /* SceneDelegate.m */; };
 		2BABA09825F5C996002DCEB3 /* ZMXLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BABA09725F5C996002DCEB3 /* ZMXLoginViewController.m */; };
@@ -24,7 +20,6 @@
 		2BABA0A325F5C99E002DCEB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BABA0A225F5C99E002DCEB3 /* main.m */; };
 		2BABA0AD25F5C99E002DCEB3 /* GithubbTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BABA0AC25F5C99E002DCEB3 /* GithubbTests.m */; };
 		2BABA0B825F5C99E002DCEB3 /* GithubbUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BABA0B725F5C99E002DCEB3 /* GithubbUITests.m */; };
-		2BCE45DC25F5FE3700FB4CA6 /* github_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BCE45DB25F5FE3700FB4CA6 /* github_icon.png */; };
 		4CB4CCFA8BB0CB830F0CFAAC /* Pods_Githubb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F10A4EC299970C3A018802A /* Pods_Githubb.framework */; };
 		CA54E6E02A0C7122543FF906 /* Pods_GithubbTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24DAD5FD4A0FB1EFFFAF4295 /* Pods_GithubbTests.framework */; };
 		CE4E80D045F7DC546EF64E0E /* Pods_Githubb_GithubbUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 269EE4A6C5CC38A4F660CE02 /* Pods_Githubb_GithubbUITests.framework */; };
@@ -61,11 +56,6 @@
 		2B26EBFF25FB42C60002754B /* ZMXRepoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMXRepoViewController.m; sourceTree = "<group>"; };
 		2B26EC1C25FF6C760002754B /* ZMXRepoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMXRepoModel.h; sourceTree = "<group>"; };
 		2B26EC1D25FF6C760002754B /* ZMXRepoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMXRepoModel.m; sourceTree = "<group>"; };
-		2B26EC372602045F0002754B /* organization.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = organization.png; sourceTree = "<group>"; };
-		2B26EC382602045F0002754B /* issues.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = issues.jpeg; sourceTree = "<group>"; };
-		2B26EC392602045F0002754B /* pull_request.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pull_request.png; sourceTree = "<group>"; };
-		2B26EC3A260204600002754B /* repo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = repo.png; sourceTree = "<group>"; };
-		2B26EC462602054C0002754B /* github_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = github_icon.png; sourceTree = "<group>"; };
 		2BABA08D25F5C996002DCEB3 /* Githubb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Githubb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BABA09025F5C996002DCEB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2BABA09125F5C996002DCEB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -83,7 +73,6 @@
 		2BABA0B325F5C99E002DCEB3 /* GithubbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubbUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BABA0B725F5C99E002DCEB3 /* GithubbUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GithubbUITests.m; sourceTree = "<group>"; };
 		2BABA0B925F5C99E002DCEB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2BCE45DB25F5FE3700FB4CA6 /* github_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = github_icon.png; path = ../../../../Downloads/github_icon.png; sourceTree = "<group>"; };
 		32354F942650C9FBBB830198 /* Pods-Githubb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Githubb.release.xcconfig"; path = "Target Support Files/Pods-Githubb/Pods-Githubb.release.xcconfig"; sourceTree = "<group>"; };
 		6F10A4EC299970C3A018802A /* Pods_Githubb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Githubb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84158A82F69BD3BBBEA652D1 /* Pods-GithubbTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubbTests.debug.xcconfig"; path = "Target Support Files/Pods-GithubbTests/Pods-GithubbTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -141,18 +130,6 @@
 			path = ZMXRepoPage;
 			sourceTree = "<group>";
 		};
-		2B26EC452602053C0002754B /* ZMXPictures */ = {
-			isa = PBXGroup;
-			children = (
-				2B26EC382602045F0002754B /* issues.jpeg */,
-				2B26EC372602045F0002754B /* organization.png */,
-				2B26EC392602045F0002754B /* pull_request.png */,
-				2B26EC3A260204600002754B /* repo.png */,
-				2B26EC462602054C0002754B /* github_icon.png */,
-			);
-			path = ZMXPictures;
-			sourceTree = "<group>";
-		};
 		2B26EC472602055C0002754B /* ZMXLoginPage */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,14 +165,12 @@
 			isa = PBXGroup;
 			children = (
 				2B26EC472602055C0002754B /* ZMXLoginPage */,
-				2B26EC452602053C0002754B /* ZMXPictures */,
 				2B26EC44260205220002754B /* ZMXRepoPage */,
 				2B26EC42260204E70002754B /* ZMXHomePage */,
 				2BABA09025F5C996002DCEB3 /* AppDelegate.h */,
 				2BABA09125F5C996002DCEB3 /* AppDelegate.m */,
 				2BABA09325F5C996002DCEB3 /* SceneDelegate.h */,
 				2BABA09425F5C996002DCEB3 /* SceneDelegate.m */,
-				2BCE45DB25F5FE3700FB4CA6 /* github_icon.png */,
 				2BABA09C25F5C99E002DCEB3 /* Assets.xcassets */,
 				2BABA09E25F5C99E002DCEB3 /* LaunchScreen.storyboard */,
 				2B26EBC225F7BB730002754B /* Main.storyboard */,
@@ -354,12 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BABA0A025F5C99E002DCEB3 /* LaunchScreen.storyboard in Resources */,
-				2B26EC3E260204600002754B /* repo.png in Resources */,
 				2BABA09D25F5C99E002DCEB3 /* Assets.xcassets in Resources */,
-				2B26EC3B260204600002754B /* organization.png in Resources */,
-				2B26EC3C260204600002754B /* issues.jpeg in Resources */,
-				2BCE45DC25F5FE3700FB4CA6 /* github_icon.png in Resources */,
-				2B26EC3D260204600002754B /* pull_request.png in Resources */,
 				2B26EBC425F7BB730002754B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

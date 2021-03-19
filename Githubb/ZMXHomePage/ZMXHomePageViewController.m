@@ -56,20 +56,12 @@
 
 -(nullable UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
 {
-    UIView *view=[[UIView alloc]init];
-    view.backgroundColor=[UIColor clearColor];
-    UILabel *lbl=[[UILabel alloc]initWithFrame:CGRectMake(0, 0, 100, 50)];
-    lbl.textAlignment = NSTextAlignmentCenter;
-    lbl.textColor= UIColor.blackColor;
-    [view addSubview:lbl];
-    
-    return view;
-}
-
--(nullable UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section
-{
-    UIView *view=[[UIView alloc]init];
-    view.backgroundColor=[UIColor clearColor];
+    UIView *view = [[UIView alloc]init];
+    view.backgroundColor = [UIColor clearColor];
+    UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 100, 50)];
+    label.textAlignment = NSTextAlignmentCenter;
+    label.textColor = UIColor.blackColor;
+    [view addSubview:label];
     
     return view;
 }
@@ -78,7 +70,7 @@
 -(ZMXHomePageTableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     ZMXHomePageTableViewCell *cell=[tableView dequeueReusableCellWithIdentifier:NSStringFromClass(ZMXHomePageTableViewCell.class)];
-    [cell updateWithTextandImage:[self.titlesArray objectAtIndex:indexPath.row] image:[self.iconArray objectAtIndex:indexPath.row]];
+    [cell updateWithText:[self.titlesArray objectAtIndex:indexPath.row] image:[self.iconArray objectAtIndex:indexPath.row]];
 
     return cell;
 }

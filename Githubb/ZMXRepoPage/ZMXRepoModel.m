@@ -6,7 +6,6 @@
 //
 
 #import "ZMXRepoModel.h"
-#import <Mantle/Mantle.h>
 
 @implementation ZMXRepoModel
 

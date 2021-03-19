@@ -10,11 +10,11 @@
 
 @interface ZMXLoginViewController () <UITextViewDelegate>
 
-@property (nonatomic, strong) UIImageView *imageView;
-
 @end
 
 @implementation ZMXLoginViewController
+
+#pragma mark - LifeCycle
 
 - (void)viewDidLoad
 {
@@ -31,7 +31,7 @@
     }];
     
     UIButton *button = [UIButton new];
-    [button setTitle: @"sign in" forState:UIControlStateNormal];
+    [button setTitle:@"sign in" forState:UIControlStateNormal];
     //rounded corners
     button.layer.cornerRadius = 3;
     button.layer.masksToBounds = YES;
@@ -43,12 +43,19 @@
         make.right.mas_equalTo(self.view).mas_offset(-16);
         make.height.mas_equalTo(30);
     }];
+    [button addTarget:self action:@selector(didLoginButtonTapped) forControlEvents:UIControlEventTouchUpInside];
     
-    
-    [button addTarget:self action:@selector(buttonMain:) forControlEvents:UIControlEventTouchUpInside];
-    
-    NSArray *array = @[@{@"text": @"Terms of use", @"color" : [UIColor blueColor], @"link" : @"https://www.google.com"}, @{@"text": @" and Privacy policy", @"color" : [UIColor blueColor], @"link" : @"https://www.baidu.com"}];
-    
+    NSDictionary *a = @{
+        @"text" : @"Terms of use",
+        @"color" : [UIColor blueColor],
+        @"link" : @"https://www.google.com"
+    };
+    NSDictionary *b = @{
+        @"text": @"and Privacy policy",
+        @"color" : [UIColor blueColor],
+        @"link" : @"https://www.baidu.com"
+    };
+    NSArray *array = @[a,b];
     
     // 构造字符串
     NSMutableString *string = [[NSMutableString alloc] initWithString:@"By signing in, you agree to "];
@@ -85,6 +92,7 @@
     [self.view addSubview:textView];
 }
 
+#pragma mark - UITextViewDelegate
 
 - (BOOL)textView:(UITextView *)textView shouldInteractWithURL:(nonnull NSURL *)URL inRange:(NSRange)characterRange interaction:(UITextItemInteraction)interaction
 {
@@ -94,7 +102,9 @@
     return NO;
 }
 
-- (void)buttonMain:(UIButton *)button
+#pragma mark - Action
+
+- (void)didLoginButtonTapped
 {
     ZMXHomePageViewController *homeVC = [ZMXHomePageViewController new];
     [self.navigationController pushViewController:homeVC animated:YES];

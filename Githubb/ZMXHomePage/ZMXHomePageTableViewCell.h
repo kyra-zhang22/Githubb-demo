@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface ZMXHomePageTableViewCell : UITableViewCell
 
 
-- (void)updateWithTextandImage:(NSString *)text image:(NSString *)image;
+- (void)updateWithText:(NSString *)text image:(NSString *)image;
 
 @end
 

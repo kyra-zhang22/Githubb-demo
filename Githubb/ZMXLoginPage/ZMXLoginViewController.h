@@ -10,7 +10,5 @@
 
 @interface ZMXLoginViewController : UIViewController
 
-- (void)buttonMain:(UIButton *)button;
-
 @end
 
