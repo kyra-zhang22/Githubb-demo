@@ -19,6 +19,7 @@ PODS:
   - Mantle/extobjc (2.1.6)
   - Masonry (1.1.0)
   - MJRefresh (3.5.0)
+  - ReactiveObjC (3.1.1)
   - SDWebImage (5.10.4):
     - SDWebImage/Core (= 5.10.4)
   - SDWebImage/Core (5.10.4)
@@ -28,6 +29,7 @@ DEPENDENCIES:
   - Mantle
   - Masonry
   - MJRefresh
+  - ReactiveObjC
   - SDWebImage
 
 SPEC REPOS:
@@ -36,6 +38,7 @@ SPEC REPOS:
     - Mantle
     - Masonry
     - MJRefresh
+    - ReactiveObjC
     - SDWebImage
 
 SPEC CHECKSUMS:
@@ -43,8 +46,9 @@ SPEC CHECKSUMS:
   Mantle: 4c0ed6ce47c96eccc4dc3bb071deb3def0e2c3be
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
   SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
 
-PODFILE CHECKSUM: 1226c70890ee5b6356a710b28ce8b760f7028519
+PODFILE CHECKSUM: 111d8c5d3a972618842a6d5e3fe18168f893115f
 
 COCOAPODS: 1.10.1

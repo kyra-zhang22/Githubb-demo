@@ -12,6 +12,7 @@ target 'Githubb' do
   pod 'MJRefresh'
   pod 'Mantle'
   pod 'SDWebImage'
+  pod 'ReactiveObjC'
 
 
   target 'GithubbTests' do
